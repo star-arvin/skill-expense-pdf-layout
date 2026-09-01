@@ -41,6 +41,15 @@ skill-expense-pdf-layout/
 ├── pyproject.toml
 ├── agents/
 │   └── openai.yaml
+├── src/
+│   └── expense_pdf_layout/
+│       ├── __init__.py
+│       ├── models.py
+│       ├── inspect.py
+│       ├── classify.py
+│       ├── plan.py
+│       ├── render.py
+│       └── manifest.py
 ├── scripts/
 │   ├── layout_expense_documents.py
 │   └── inspect_expense_documents.py
