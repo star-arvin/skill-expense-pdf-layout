@@ -1,0 +1,4 @@
+interface:
+  display_name: "Expense PDF Layout"
+  short_description: "Classify receipts and build print-safe A4 PDFs"
+  default_prompt: "Use $skill-expense-pdf-layout to inspect this folder and create a validated A4 reimbursement PDF without changing source files."

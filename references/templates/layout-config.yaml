@@ -1,0 +1,5 @@
+# 仅对用户已经核对过的文件做精确类型覆盖。
+# 键必须是输入目录中的文件名，不包含目录。
+type_overrides:
+  sample-stay-01.pdf: accommodation-invoice
+  sample-trip-01.pdf: itinerary
