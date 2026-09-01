@@ -1,7 +1,7 @@
 from hashlib import sha256
 from pathlib import Path
 
-import fitz
+import pymupdf as fitz
 
 
 def sha256_file(path: Path) -> str:
