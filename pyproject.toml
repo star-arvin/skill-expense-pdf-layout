@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "expense-pdf-layout"
+version = "1.0.0"
+description = "Portable reimbursement document classification and A4 layout engine"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+  "PyMuPDF>=1.24,<2",
+  "PyYAML>=6,<7",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]
+
